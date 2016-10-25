@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11BE60641DBE7D6B0091B91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BE60631DBE7D6B0091B91C /* Main.storyboard */; };
+		11BE60661DBE7DB10091B91C /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE60651DBE7DB10091B91C /* LocationsTableViewController.swift */; };
+		11BE60681DBEA4D00091B91C /* TriviaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE60671DBEA4D00091B91C /* TriviaTableViewController.swift */; };
+		11BE606A1DBF7F3C0091B91C /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE60691DBF7F3C0091B91C /* AddLocationViewController.swift */; };
+		11BE606C1DBF9DE30091B91C /* AddTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE606B1DBF9DE30091B91C /* AddTriviaViewController.swift */; };
 		1B4006BA1D25974A008F814D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4006B91D25974A008F814D /* AppDelegate.swift */; };
 		1B4006C11D25974A008F814D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4006C01D25974A008F814D /* Assets.xcassets */; };
 		1B4006C41D25974A008F814D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4006C21D25974A008F814D /* LaunchScreen.storyboard */; };
@@ -17,6 +22,11 @@
 
 /* Begin PBXFileReference section */
 		0CA98FEC4C1E7F3D4C9BC36A /* Pods-swift-LocationTrivia-DataStoreRelationships-lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-DataStoreRelationships-lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-DataStoreRelationships-lab/Pods-swift-LocationTrivia-DataStoreRelationships-lab.release.xcconfig"; sourceTree = "<group>"; };
+		11BE60631DBE7D6B0091B91C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		11BE60651DBE7DB10091B91C /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		11BE60671DBEA4D00091B91C /* TriviaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewController.swift; sourceTree = "<group>"; };
+		11BE60691DBF7F3C0091B91C /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		11BE606B1DBF9DE30091B91C /* AddTriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTriviaViewController.swift; sourceTree = "<group>"; };
 		1B4006B61D25974A008F814D /* swift-LocationTrivia-DataStoreRelationships-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-LocationTrivia-DataStoreRelationships-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4006B91D25974A008F814D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4006C01D25974A008F814D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,8 +80,13 @@
 				1B4006B91D25974A008F814D /* AppDelegate.swift */,
 				1B4006D91D259895008F814D /* Location.swift */,
 				1B4006DB1D259895008F814D /* Trivium.swift */,
-				1B4006C01D25974A008F814D /* Assets.xcassets */,
+				11BE60651DBE7DB10091B91C /* LocationsTableViewController.swift */,
+				11BE60671DBEA4D00091B91C /* TriviaTableViewController.swift */,
+				11BE60691DBF7F3C0091B91C /* AddLocationViewController.swift */,
+				11BE606B1DBF9DE30091B91C /* AddTriviaViewController.swift */,
+				11BE60631DBE7D6B0091B91C /* Main.storyboard */,
 				1B4006C21D25974A008F814D /* LaunchScreen.storyboard */,
+				1B4006C01D25974A008F814D /* Assets.xcassets */,
 				1B4006C51D25974A008F814D /* Info.plist */,
 			);
 			path = "swift-LocationTrivia-DataStoreRelationships-lab";
@@ -130,7 +145,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					1B4006B51D25974A008F814D = {
@@ -163,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BE60641DBE7D6B0091B91C /* Main.storyboard in Resources */,
 				1B4006C41D25974A008F814D /* LaunchScreen.storyboard in Resources */,
 				1B4006C11D25974A008F814D /* Assets.xcassets in Resources */,
 			);
@@ -223,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BE60661DBE7DB10091B91C /* LocationsTableViewController.swift in Sources */,
+				11BE606A1DBF7F3C0091B91C /* AddLocationViewController.swift in Sources */,
 				1B4006DE1D259895008F814D /* Trivium.swift in Sources */,
+				11BE606C1DBF9DE30091B91C /* AddTriviaViewController.swift in Sources */,
 				1B4006DC1D259895008F814D /* Location.swift in Sources */,
+				11BE60681DBEA4D00091B91C /* TriviaTableViewController.swift in Sources */,
 				1B4006BA1D25974A008F814D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +277,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -303,8 +325,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -323,6 +347,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
